@@ -1,0 +1,6 @@
+-  Repair loop fix:
+
+1) boot in single user mode
+    2) then run /sbin/fsck -y -t ufs /
+
+I got messages indicating INODE table and the like had been reparied.
